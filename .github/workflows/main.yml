@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ sweltering-frame-fish.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ sweltering-frame-fish.surge.sh --token ${{secrets.SURGE_TOKEN}}
